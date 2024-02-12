@@ -1,0 +1,99 @@
+.navbar{
+    background-color: #000000;
+    display: flex;
+    height: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav1{
+    display: flex;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav2{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: rgb(0, 119, 255);
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navlist1{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.navlist2{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.headerItems{
+    text-decoration: none;
+}
+
+.coloron{
+    color: #0077ff;
+
+}
+
+.colorof{
+    color: white;
+}
+
+.search{
+    height: 20px;
+    width: 300px;
+    /* font-size: 15px; */
+}
+
+.login {
+  background-color: #0077ff;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  height: 20px;
+  padding: 0 25px;
+}
+
+
+
+
+
+
+/* .login{
+    border-style: none;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: rgb(0, 119, 255);
+
+} */
+
+
+
+
+
+

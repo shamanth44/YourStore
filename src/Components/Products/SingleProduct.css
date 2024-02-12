@@ -1,0 +1,92 @@
+.singleProductCard {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: 80px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.productImg {
+  width: 100%;
+}
+
+.imgFlex {
+  flex-basis: 45%;
+}
+
+.SingleProductDetails {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.SingleProductDetails h1 {
+  font-size: 36px;
+  margin: 0px;
+}
+
+.SingleProductDetails p {
+  color: rgb(84, 84, 84);
+  /* word-spacing: 5px; */
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.singleProductCard p b {
+  color: rgb(54, 54, 54);
+}
+
+.addToCart {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #0077ff;
+  border: none;
+  outline: none;
+  color: white;
+  transition: all;
+  font-size: 12px;
+}
+
+.quantity button {
+  color: rgb(84, 84, 84);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  /* background-color: #ffffff; */
+  border: 1px solid gray;
+  outline: none;
+  transition: all;
+  font-weight: 900;
+  font-size: 10px;
+}
+.quantity {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.quantityATC {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 720px) {
+  .singleProductCard {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .SingleProductDetails {
+    gap: 20px;
+  }
+}

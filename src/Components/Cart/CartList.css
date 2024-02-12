@@ -1,0 +1,92 @@
+
+.cartItems{
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pricingContainer{
+    margin-right: 80px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.pricing{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hr1{
+    background-color: rgb(136, 136, 136);
+    height: 1.5px;
+    /* width: 100%; */
+}
+.hr{
+    background-color: rgb(136, 136, 136);
+    height: 1.5px;
+    
+
+}
+
+
+.singleCartItem{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImage img{
+    /* flex-basis: 15%; */
+    width: 100px;
+}
+
+.name, .price, .total, .quantity {
+    flex-basis: 15%;
+}
+
+.name{
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+
+.remove {
+    flex-basis: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border:   1px solid #ff0000;
+    outline: none;
+    color: #ff0000;
+    transition: all;
+  }
+  
+  .remove:hover {
+    background-color: #fbe4e4;
+    transition: 0.5s;
+  }
+
+  .placeOrder {
+    flex-basis: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border:   1px solid #00911f;
+    outline: none;
+    color: #00911f;
+    transition: all;
+  }
+  
+  .placeOrder:hover {
+    background-color: #d3ffdc;
+    transition: 0.5s;
+  }
